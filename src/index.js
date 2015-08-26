@@ -1,7 +1,7 @@
 import blacklist from "./data/list.json";
 
 
-export function validate(username) {
+function validate(username) {
     username = username.trim();
     username = username.toLowerCase();
 
@@ -16,3 +16,4 @@ export function validate(username) {
     return true;
 }
 
+export {validate};
