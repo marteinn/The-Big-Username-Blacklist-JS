@@ -7,7 +7,7 @@
     "build:lib": "babel src/index.js --out-file lib/index.js",
     "build:test": "babel src/test --out-dir test",
     "build": "npm run build:lib && npm run build:test",
-    "test": "make test"
+    "test": "mocha --reporter spec test"
   },
   "repository": {
     "type": "git",
