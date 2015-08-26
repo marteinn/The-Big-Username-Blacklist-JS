@@ -1,0 +1,30 @@
+{
+  "name": "the-big-username-blacklist",
+  "version": "1.0.0",
+  "description": "This is a opinionated blacklist of words that you might not like to see used as usernames in your service.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build:lib": "babel src/index.js --out-file lib/index.js",
+    "build:test": "babel src/test --out-dir test",
+    "build": "npm run build:lib && npm run build:test",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marteinn/The-Big-Username-Blacklist-JS.git"
+  },
+  "keywords": [
+    "username",
+    "blacklist"
+  ],
+  "devDependencies": {
+    "babel": "5.8.21",
+    "mocha": "^2.2.5"
+  },
+  "author": "Martin Sandström",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marteinn/The-Big-Username-Blacklist-JS/issues"
+  },
+  "homepage": "https://github.com/marteinn/The-Big-Username-Blacklist-JS"
+}
