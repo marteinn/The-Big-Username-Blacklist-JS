@@ -1,6 +1,6 @@
 {
   "name": "the-big-username-blacklist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a opinionated blacklist of words that you might not like to see used as usernames in your service.",
   "main": "lib/index.js",
   "scripts": {
