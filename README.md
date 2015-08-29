@@ -5,7 +5,7 @@ This library lets you validate usernames against a blacklist. The blacklist data
 
 ## How it works
 
-the-big-username-blacklist exposes a function named validate, you can use that function to see if a word is occuring in the The-Big-Username-Blacklist.
+the-big-username-blacklist exposes a function named validate, you can use that function to see if a word is occuring in the blacklist.
 
 
 ## Usage
@@ -39,11 +39,11 @@ It's simple, just run:
 
 Want to contribute? Awesome. Just send a pull request.
 
-All code are in es6 format and places in `src`, to compile back to es5 type:
+All code are in es6 format and can be find in the `src` directory, to compile back to es5 type:
 
     npm run build
 
 
 ## License
 
-The-Big-Username-Blacklist-JS is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+The-Big-Username-Blacklist is released under the [MIT License](http://www.opensource.org/licenses/MIT).
