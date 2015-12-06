@@ -21,6 +21,16 @@ false
 ```
 
 
+### ES6
+```javascript
+>>>> import blacklist from "the-big-username-blacklist";
+>>>> blacklist.validate("martin");
+true
+>>>> blacklist.validate("root");
+false
+```
+
+
 ## Installation
 
 This package is available through npm
