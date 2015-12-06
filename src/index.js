@@ -16,4 +16,4 @@ function validate(username) {
     return true;
 }
 
-export {validate};
+export default {validate};
