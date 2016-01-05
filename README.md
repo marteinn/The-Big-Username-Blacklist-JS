@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/marteinn/The-Big-Username-Blacklist-JS.svg?branch=master)](https://travis-ci.org/marteinn/the-big-username-blacklist-js)
+[![npm version](https://badge.fury.io/js/the-big-username-blacklist.svg)](https://badge.fury.io/js/the-big-username-blacklist)
+
 # The-Big-Username-Blacklist-JS
 
 This library lets you validate usernames against a blacklist. The blacklist data is based on the data from [The-Big-Username-Blacklist](https://github.com/marteinn/The-Big-Username-Blacklist) and contains privilege, programming terms, section names, financial terms and actions.
