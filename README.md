@@ -8,7 +8,7 @@ This library lets you validate usernames against a blacklist. The blacklist data
 
 ## How it works
 
-the-big-username-blacklist exposes a function named validate, you can use that function to see if a word is occuring in the blacklist.
+the-big-username-blacklist exposes a function named `validate`, you can use that function to see if a word is occuring in the blacklist.
 
 
 ## Usage
@@ -24,13 +24,36 @@ false
 ```
 
 
-### ES6
+The same would be written like this in ES6.
+
 ```javascript
 >>>> import blacklist from "the-big-username-blacklist";
 >>>> blacklist.validate("martin");
 true
 >>>> blacklist.validate("root");
 false
+```
+
+#### Access the blacklist
+
+If you only want to retrive the blacklist data, you can find it in the `list` property.
+
+```javascript
+>>>> var blacklist = require("the-big-username-blacklist");
+>>>> console.log(blacklist.list);
+[ '400',
+  '401',
+  '403'...
+```
+
+The same would be written like this in ES6.
+
+```javascript
+>>>> import {list} from "the-big-username-blacklist";
+>>>> console.log(list);
+[ '400',
+  '401',
+  '403'...
 ```
 
 
