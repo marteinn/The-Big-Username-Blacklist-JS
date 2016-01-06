@@ -1,19 +1,11 @@
-import blacklist from "./data/list.json";
+import list from "./data/list.json";
 
 
-function validate(username) {
-    username = username.trim();
-    username = username.toLowerCase();
+function validate(word) {
+    word = word.trim();
+    word = word.toLowerCase();
 
-    for (var i=0, l=blacklist.length; i<l; i++) {
-        var word = blacklist[i];
-
-        if (word === username) {
-            return false;
-        }
-    }
-
-    return true;
+    return list.indexOf(word) === -1;
 }
 
-export default {validate};
+export default {validate, list};
