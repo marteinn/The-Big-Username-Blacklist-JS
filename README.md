@@ -77,7 +77,13 @@ Want to contribute? Awesome. Just send a pull request.
 
 All code are in es6 format and can be find in the `src` directory, to compile back to es5 type:
 
-    npm run build
+
+### Building
+
+```
+babel src/index.js --out-file lib/index.js
+babel src/test --out-dir test
+```
 
 
 ## License

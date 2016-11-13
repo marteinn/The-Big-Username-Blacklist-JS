@@ -1,32 +1,33 @@
 {
-    "name": "the-big-username-blacklist",
-    "version": "1.3.1",
-    "description": "This is a opinionated blacklist of words that you might not like to see used as usernames in your service.",
-    "main": "lib/index.js",
-    "scripts": {
-        "build:lib": "babel src/index.js --out-file lib/index.js",
-        "build:test": "babel src/test --out-dir test",
-        "build": "npm run build:lib && npm run build:test",
-        "test": "mocha --reporter spec test",
-        "hint": "jshint src"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/marteinn/The-Big-Username-Blacklist-JS.git"
-    },
-    "keywords": [
-        "username",
-        "blacklist"
-    ],
-    "devDependencies": {
-        "babel": "6.3.13",
-        "jshint": "2.9.1-rc1",
-        "mocha": "2.3.4"
-    },
-    "author": "Martin Sandström",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/marteinn/The-Big-Username-Blacklist-JS/issues"
-    },
-    "homepage": "https://github.com/marteinn/The-Big-Username-Blacklist-JS"
+  "name": "the-big-username-blacklist",
+  "version": "1.3.4",
+  "description": "This is a opinionated blacklist of words that you might not like to see used as usernames in your service.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build:lib": "babel src/index.js --out-file lib/index.js",
+    "build:test": "babel src/test --out-dir test",
+    "build": "npm run build:lib && npm run build:test",
+    "test": "mocha --reporter spec test",
+    "hint": "jshint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marteinn/The-Big-Username-Blacklist-JS.git"
+  },
+  "keywords": [
+    "username",
+    "blacklist"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel": "6.5.2",
+    "jshint": "2.9.4",
+    "mocha": "3.1.2"
+  },
+  "author": "Martin Sandström",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marteinn/The-Big-Username-Blacklist-JS/issues"
+  },
+  "homepage": "https://github.com/marteinn/The-Big-Username-Blacklist-JS"
 }
