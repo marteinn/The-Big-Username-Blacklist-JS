@@ -66,6 +66,12 @@ This package is available through npm
     $ npm install the-big-username-blacklist
 
 
+We also include a minified version that you can put on your cdn:
+
+- [Development Version](https://github.com/marteinn/The-Big-Username-Blacklist-JS/blob/develop/dist/the-big-username-blacklist.min.js)
+- [Production Version](https://github.com/marteinn/The-Big-Username-Blacklist-JS/blob/master/dist/the-big-username-blacklist.min.js)
+
+
 ## Tests
 
 It's simple, just run:
