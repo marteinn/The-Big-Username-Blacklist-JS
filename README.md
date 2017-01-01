@@ -68,8 +68,8 @@ This package is available through npm
 
 We also include a minified version that you can put on your cdn:
 
-- [Development Version](https://github.com/marteinn/The-Big-Username-Blacklist-JS/blob/develop/dist/the-big-username-blacklist.min.js)
-- [Production Version](https://github.com/marteinn/The-Big-Username-Blacklist-JS/blob/master/dist/the-big-username-blacklist.min.js)
+- [Development Version](https://raw.githubusercontent.com/marteinn/The-Big-Username-Blacklist-JS/develop/dist/the-big-username-blacklist.min.js)
+- [Production Version](https://raw.githubusercontent.com/marteinn/The-Big-Username-Blacklist-JS/master/dist/the-big-username-blacklist.min.js)
 
 
 ## Tests
