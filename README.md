@@ -5,6 +5,8 @@
 
 This library lets you validate usernames against a blacklist. The blacklist data is based on the data from [The-Big-Username-Blacklist](https://github.com/marteinn/The-Big-Username-Blacklist) and contains privilege, programming terms, section names, financial terms and actions.
 
+You can try the blacklist using the tool [Username checker](http://marteinn.github.io/The-Big-Username-Blacklist-JS/).
+
 
 ## How it works
 
@@ -64,6 +66,12 @@ This package is available through npm
     $ npm install the-big-username-blacklist
 
 
+We also include a minified version that you can put on your cdn:
+
+- [Development Version](https://raw.githubusercontent.com/marteinn/The-Big-Username-Blacklist-JS/develop/dist/the-big-username-blacklist.min.js)
+- [Production Version](https://raw.githubusercontent.com/marteinn/The-Big-Username-Blacklist-JS/master/dist/the-big-username-blacklist.min.js)
+
+
 ## Tests
 
 It's simple, just run:
@@ -75,15 +83,7 @@ It's simple, just run:
 
 Want to contribute? Awesome. Just send a pull request.
 
-All code are in es6 format and can be find in the `src` directory, to compile back to es5 type:
-
-
-### Building
-
-```
-babel src/index.js --out-file lib/index.js
-babel src/test --out-dir test
-```
+All code are in es6 format and can be found in the `src` directory, to compile back to es5 type: `npm run build`
 
 
 ## License

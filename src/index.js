@@ -1,11 +1,11 @@
-import list from "./data/list.json";
+import list from "./list.js";
 
 
-function validate(word) {
+const validate = (word) => {
     word = word.trim();
     word = word.toLowerCase();
 
     return list.indexOf(word) === -1;
 }
 
-export default {validate, list};
+export default { validate, list };
