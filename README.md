@@ -5,6 +5,8 @@
 
 This library lets you validate usernames against a blacklist. The blacklist data is based on the data from [The-Big-Username-Blacklist](https://github.com/marteinn/The-Big-Username-Blacklist) and contains privilege, programming terms, section names, financial terms and actions.
 
+You can checkout the blacklist using the tool [Username checker](http://marteinn.github.io/The-Big-Username-Blacklist-JS/).
+
 
 ## How it works
 
