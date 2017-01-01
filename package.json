@@ -6,6 +6,7 @@
   "scripts": {
     "build:lib": "babel src/index.js --out-dir lib --ignore src/test",
     "build:test": "babel src/test --out-dir test",
+    "build:dist": "webpack",
     "build": "npm run build:lib && npm run build:test",
     "test": "mocha --reporter spec test",
     "hint": "jshint src"
@@ -24,12 +25,14 @@
     "babel-core": "6.21.0",
     "babel-preset-es2015": "6.18.0",
     "jshint": "2.9.4",
-    "mocha": "3.2.0"
+    "mocha": "3.2.0",
+    "babel-loader": "6.2.10",
+    "webpack": "1.14.0"
   },
   "author": "Martin Sandström",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marteinn/The-Big-Username-Blacklist-JS/issues"
   },
-  "homepage": "https://github.com/marteinn/The-Big-Username-Blacklist-JS"
+  "homepage": "https://github.com/marteinn/The-Big-Username-Blacklist-JS",
 }

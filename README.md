@@ -75,15 +75,7 @@ It's simple, just run:
 
 Want to contribute? Awesome. Just send a pull request.
 
-All code are in es6 format and can be find in the `src` directory, to compile back to es5 type:
-
-
-### Building
-
-```
-babel src/index.js --out-file lib/index.js
-babel src/test --out-dir test
-```
+All code are in es6 format and can be found in the `src` directory, to compile back to es5 type: `npm run build`
 
 
 ## License
