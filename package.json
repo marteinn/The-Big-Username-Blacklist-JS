@@ -1,11 +1,11 @@
 {
   "name": "the-big-username-blacklist",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "This is a opinionated blacklist of words that you might not like to see used as usernames in your service.",
   "main": "lib/index.js",
   "scripts": {
-    "build:lib": "babel src/index.js --out-dir lib --ignore src/test",
-    "build:test": "babel src/test --out-dir test",
+    "build:lib": "babel src/ --presets es2015 --out-dir lib --ignore test,global.js",
+    "build:test": "babel src/test --presets es2015 --out-dir test",
     "build:dist": "webpack",
     "build": "npm run build:lib && npm run build:test",
     "test": "mocha --reporter spec test",
@@ -20,13 +20,12 @@
     "blacklist"
   ],
   "devDependencies": {
-    "babel": "6.5.2",
-    "babel-cli": "6.18.0",
-    "babel-core": "6.21.0",
-    "babel-preset-es2015": "6.18.0",
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-preset-es2015": "6.24.1",
     "jshint": "2.9.4",
     "mocha": "3.2.0",
-    "babel-loader": "6.2.10",
+    "babel-loader": "6.4.1",
     "webpack": "1.14.0"
   },
   "author": "Martin Sandström",
