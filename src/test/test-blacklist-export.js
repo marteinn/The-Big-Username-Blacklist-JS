@@ -1,5 +1,5 @@
 import assert from "assert";
-import {list} from "../lib/index";
+import { list } from "../lib/index";
 
 
 describe("Makes sure blacklist data is exported", () => {

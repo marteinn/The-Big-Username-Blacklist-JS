@@ -1,11 +1,15 @@
-import list from "./list.js";
+import blacklistedWords from "./list.js";
 
-
-const validate = (word) => {
+export const validate = (word) => {
     word = word.trim();
     word = word.toLowerCase();
 
-    return list.indexOf(word) === -1;
+    return blacklistedWords.indexOf(word) === -1;
 }
 
-export default { validate, list };
+export const list = blacklistedWords;
+
+export default {
+    validate,
+    list: blacklistedWords
+};
