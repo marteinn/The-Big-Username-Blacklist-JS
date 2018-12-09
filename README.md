@@ -29,7 +29,7 @@ false
 The same would be written like this in ES6.
 
 ```javascript
->>>> import blacklist from "the-big-username-blacklist";
+>>>> import {blacklist} from "the-big-username-blacklist";
 >>>> blacklist.validate("martin");
 true
 >>>> blacklist.validate("root");
